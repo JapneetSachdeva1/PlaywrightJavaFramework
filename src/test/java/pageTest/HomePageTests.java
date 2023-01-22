@@ -1,36 +1,33 @@
 package pageTest;
 
 import base.BaseTest;
-import com.microsoft.playwright.Playwright;
-import factory.PlaywrightFactory;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pages.HomePage;
 
-public class HomePageTest extends BaseTest
+import static constants.HomePageConstants.HOME_PAGE_TITLE;
+import static utils.PropertyReader.loadProperty;
+
+public class HomePageTests extends BaseTest
 {
-    HomePage homePage;
 
-    @BeforeMethod
-    public void setupHomePage()
+    public HomePageTests()
     {
-        homePage = new HomePage(page);
+        pageKey = "homepage";
     }
 
     @Test
     public void pageTitleTest()
     {
         String title = homePage.getPageTitle();
-        Assert.assertEquals(title, "Your Store");
+        Assert.assertEquals(title, HOME_PAGE_TITLE);
     }
 
     @Test
     public void pageUrlTest()
     {
         String url = homePage.getPageUrl();
-        Assert.assertEquals(url, "https://naveenautomationlabs.com/opencart/index.php?route=common/home");
+        Assert.assertEquals(url, loadProperty("baseUrl"));
     }
 
     @DataProvider
@@ -52,4 +49,6 @@ public class HomePageTest extends BaseTest
         Assert.assertEquals("Search - "+productName, itemName);
         System.out.println("item: "+itemName);
     }
+
+
 }
