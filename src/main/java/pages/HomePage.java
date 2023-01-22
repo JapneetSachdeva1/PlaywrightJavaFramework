@@ -11,6 +11,8 @@ public class HomePage
     private String searchBar = "//input[@name='search']";
     private String searchBtn = "(//input[@name='search']//following::button)[1]";
     private String searchedItemName = "//h1";
+    private String myAccount = "//span[text()='My Account']";
+    private String loginBtn = "//a[text()='Login']";
 
 
     //Constructor to capture Page
@@ -37,5 +39,11 @@ public class HomePage
         return itemName;
     }
 
+    public LoginPage goToLoginPage()
+    {
+        page.click(myAccount);
+        page.click(loginBtn);
+        return new LoginPage(page);
+    }
 
 }
