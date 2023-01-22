@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<suite name="SmokeSuite" parallel="tests" thread-count="3" verbose="2">
+
+    <listeners>
+        <listener class-name="utils.ReportListeners"/>
+    </listeners>
 
     <test name="homePageTests">
         <classes>
@@ -13,4 +17,11 @@
             <class name="pageTest.LoginPageTests"/>
         </classes>
     </test>
+
+    <test name="RegisterPageTests">
+        <classes>
+            <class name="pageTest.RegisterPageTests"/>
+        </classes>
+    </test>
+
 </suite>

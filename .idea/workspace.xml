@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fdf42f03-0f1b-4d3f-9036-7bc3b9ef75a4" name="Changes" comment="first playwright commit">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ExtentReportHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ReportListeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/RetrieveJsonData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageTest/RegisterPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testData/registrationData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/RegisterPageTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/RegisterPageTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/homePageTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/homePageTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/loginPageTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/loginPageTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-pageTest.HomePageTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-pageTest.LoginPageTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-pageTest.RegisterPageTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/RegisterPageTests.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/homePageTests.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/loginPageTests.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageTest/LoginPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageTest/LoginPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testRunner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testRunner/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/constants/HomePageConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/HomePageConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/constants/LoginPageConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/LoginPageConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/factory/PlaywrightFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/factory/PlaywrightFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/AccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AccountPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/PropertyReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/PropertyReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageTest/HomePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageTest/HomePageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageTest/LoginPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageTest/LoginPageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testRunner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testRunner/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Ke41vRQILoj5Zir8ufLFCQHNk1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Japneet/Downloads/BDDSelenium-master(1)/PlaywrightFramework/src/test/resources/testRunner/SmokeSuiteRunner.xml">
+    <configuration name="C:/Users/Japneet/Downloads/BDDSelenium-master(1)/PlaywrightFramework/src/test/resources/testRunner/SmokeSuiteRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PlaywrightFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testRunner/SmokeSuiteRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Japneet/Downloads/BDDSelenium-master(1)/PlaywrightFramework/src/test/resources/testRunner/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PlaywrightFramework" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testRunner/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PlaywrightFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pageTest" />
+      <option name="MAIN_CLASS_NAME" value="pageTest.LoginPageTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTests.validUserLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PlaywrightFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pageTest" />
+      <option name="MAIN_CLASS_NAME" value="pageTest.LoginPageTests" />
+      <option name="METHOD_NAME" value="validUserLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PlaywrightFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pageTest" />
+      <option name="MAIN_CLASS_NAME" value="pageTest.RegisterPageTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Japneet/Downloads/BDDSelenium-master(1)/PlaywrightFramework/src/test/resources/testRunner/SmokeSuiteRunner.xml" />
+        <item itemvalue="TestNG.C:/Users/Japneet/Downloads/BDDSelenium-master(1)/PlaywrightFramework/src/test/resources/testRunner/testng.xml" />
+        <item itemvalue="TestNG.LoginPageTests" />
+        <item itemvalue="TestNG.LoginPageTests.validUserLoginTest" />
+        <item itemvalue="TestNG.RegisterPageTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdf42f03-0f1b-4d3f-9036-7bc3b9ef75a4" name="Changes" comment="" />
+      <created>1674321514355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674321514355</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first playwright commit">
+      <created>1674326185747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674326185747</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first playwright commit">
+      <created>1674380310147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674380310147</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first playwright commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first playwright commit" />
+  </component>
+</project>

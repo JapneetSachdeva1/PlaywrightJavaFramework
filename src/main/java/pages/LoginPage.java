@@ -22,6 +22,11 @@ public class LoginPage
         page.fill(emailIdfield, email);
         page.fill(passwordfield, password);
         page.click(loginBtn);
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return new AccountPage(page);
     }
 

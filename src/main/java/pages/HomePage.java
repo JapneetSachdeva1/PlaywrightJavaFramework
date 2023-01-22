@@ -13,6 +13,8 @@ public class HomePage
     private String searchedItemName = "//h1";
     private String myAccount = "//span[text()='My Account']";
     private String loginBtn = "//a[text()='Login']";
+    private String myAccountBtn = "//span[text()='My Account']";
+    private String registerBtn = "//a[text()='Register']";
 
 
     //Constructor to capture Page
@@ -44,6 +46,13 @@ public class HomePage
         page.click(myAccount);
         page.click(loginBtn);
         return new LoginPage(page);
+    }
+
+    public RegisterPage goToRegisterPage()
+    {
+        page.locator(myAccountBtn).click();
+        page.locator(registerBtn).click();
+        return new RegisterPage(page);
     }
 
 }

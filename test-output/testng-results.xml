@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="29311" started-at="2023-01-22T14:48:20Z" finished-at="2023-01-22T14:48:49Z">
+    <groups>
+    </groups>
+    <test name="loginPageTests" duration-ms="22195" started-at="2023-01-22T14:48:20Z" finished-at="2023-01-22T14:48:42Z">
+      <class name="pageTest.LoginPageTests">
+        <test-method status="PASS" signature="setupPlaywright()[pri:0, instance:pageTest.LoginPageTests@6b0c2d26]" name="setupPlaywright" is-config="true" duration-ms="11309" started-at="2023-01-22T14:48:20Z" finished-at="2023-01-22T14:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPlaywright -->
+        <test-method status="PASS" signature="validUserLoginTest()[pri:0, instance:pageTest.LoginPageTests@6b0c2d26]" name="validUserLoginTest" duration-ms="6093" started-at="2023-01-22T14:48:31Z" finished-at="2023-01-22T14:48:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserLoginTest -->
+        <test-method status="PASS" signature="tearDownPlaywright()[pri:0, instance:pageTest.LoginPageTests@6b0c2d26]" name="tearDownPlaywright" is-config="true" duration-ms="4740" started-at="2023-01-22T14:48:37Z" finished-at="2023-01-22T14:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownPlaywright -->
+      </class> <!-- pageTest.LoginPageTests -->
+    </test> <!-- loginPageTests -->
+    <test name="RegisterPageTests" duration-ms="27216" started-at="2023-01-22T14:48:20Z" finished-at="2023-01-22T14:48:47Z">
+      <class name="pageTest.RegisterPageTests">
+        <test-method status="PASS" signature="setupPlaywright()[pri:0, instance:pageTest.RegisterPageTests@146044d7]" name="setupPlaywright" is-config="true" duration-ms="11493" started-at="2023-01-22T14:48:20Z" finished-at="2023-01-22T14:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPlaywright -->
+        <test-method status="PASS" signature="testPositiveRegistrationOfUser(java.util.HashMap)[pri:0, instance:pageTest.RegisterPageTests@146044d7]" name="testPositiveRegistrationOfUser" duration-ms="7801" started-at="2023-01-22T14:48:32Z" data-provider="getRegisterUserData" finished-at="2023-01-22T14:48:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lName=Cart, password=Hello12, telephone=3332221144, fName=Open, email=opencar@mailinator.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPositiveRegistrationOfUser -->
+        <test-method status="PASS" signature="testPositiveRegistrationOfUser(java.util.HashMap)[pri:0, instance:pageTest.RegisterPageTests@146044d7]" name="testPositiveRegistrationOfUser" duration-ms="7216" started-at="2023-01-22T14:48:39Z" data-provider="getRegisterUserData" finished-at="2023-01-22T14:48:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lName=spider, password=Hello12, telephone=3332221144, fName=spider, email=spider@mailinator.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPositiveRegistrationOfUser -->
+        <test-method status="PASS" signature="tearDownPlaywright()[pri:0, instance:pageTest.RegisterPageTests@146044d7]" name="tearDownPlaywright" is-config="true" duration-ms="272" started-at="2023-01-22T14:48:47Z" finished-at="2023-01-22T14:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownPlaywright -->
+      </class> <!-- pageTest.RegisterPageTests -->
+    </test> <!-- RegisterPageTests -->
+    <test name="homePageTests" duration-ms="29311" started-at="2023-01-22T14:48:20Z" finished-at="2023-01-22T14:48:49Z">
+      <class name="pageTest.HomePageTests">
+        <test-method status="PASS" signature="setupPlaywright()[pri:0, instance:pageTest.HomePageTests@33cb5951]" name="setupPlaywright" is-config="true" duration-ms="11679" started-at="2023-01-22T14:48:20Z" finished-at="2023-01-22T14:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPlaywright -->
+        <test-method status="PASS" signature="pageTitleTest()[pri:0, instance:pageTest.HomePageTests@33cb5951]" name="pageTitleTest" duration-ms="79" started-at="2023-01-22T14:48:31Z" finished-at="2023-01-22T14:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleTest -->
+        <test-method status="PASS" signature="pageUrlTest()[pri:0, instance:pageTest.HomePageTests@33cb5951]" name="pageUrlTest" duration-ms="4" started-at="2023-01-22T14:48:31Z" finished-at="2023-01-22T14:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageUrlTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:pageTest.HomePageTests@33cb5951]" name="searchTest" duration-ms="5723" started-at="2023-01-22T14:48:31Z" data-provider="searchData" finished-at="2023-01-22T14:48:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:pageTest.HomePageTests@33cb5951]" name="searchTest" duration-ms="5881" started-at="2023-01-22T14:48:37Z" data-provider="searchData" finished-at="2023-01-22T14:48:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:pageTest.HomePageTests@33cb5951]" name="searchTest" duration-ms="5620" started-at="2023-01-22T14:48:43Z" data-provider="searchData" finished-at="2023-01-22T14:48:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDownPlaywright()[pri:0, instance:pageTest.HomePageTests@33cb5951]" name="tearDownPlaywright" is-config="true" duration-ms="304" started-at="2023-01-22T14:48:49Z" finished-at="2023-01-22T14:48:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownPlaywright -->
+      </class> <!-- pageTest.HomePageTests -->
+    </test> <!-- homePageTests -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

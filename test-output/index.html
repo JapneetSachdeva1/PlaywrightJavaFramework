@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-All_Test_Suite">
+              <span class="suite-name border-passed">All Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-All_Test_Suite">
+                    <span>C:\Users\Japneet\Downloads\BDDSelenium-master(1)\PlaywrightFramework\src\test\resources\testRunner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-All_Test_Suite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-All_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-All_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-All_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-All_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-All_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods passed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods passed suite-All_Test_Suite"> (show)</a> <!-- show-methods passed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="pageTest.HomePageTests" hash-for-method="pageTitleTest">pageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="pageTest.HomePageTests" hash-for-method="pageUrlTest">pageUrlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="pageTest.HomePageTests" hash-for-method="searchTest(Macbook)">searchTest(Macbook)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="pageTest.HomePageTests" hash-for-method="searchTest(iPhone)">searchTest(iPhone)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="pageTest.HomePageTests" hash-for-method="searchTest(iMac)">searchTest(iMac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="pageTest.RegisterPageTests" hash-for-method="testPositiveRegistrationOfUser({lName=spider, password=Hello12, telephone=3332221144, fName=spider, email=spider@mailinator.com})">testPositiveRegistrationOfUser({lName=spider, password=Hello12, telephone=3332221144, fName=spider, email=spider@mailinator.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="pageTest.RegisterPageTests" hash-for-method="testPositiveRegistrationOfUser({lName=Cart, password=Hello12, telephone=3332221144, fName=Open, email=opencar@mailinator.com})">testPositiveRegistrationOfUser({lName=Cart, password=Hello12, telephone=3332221144, fName=Open, email=opencar@mailinator.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="pageTest.LoginPageTests" hash-for-method="validUserLoginTest">validUserLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pageTest.HomePageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="pageTitleTest">
+                  </a> <!-- pageTitleTest -->
+                  <span class="method-name">pageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pageUrlTest">
+                  </a> <!-- pageUrlTest -->
+                  <span class="method-name">pageUrlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Macbook)">
+                  </a> <!-- searchTest(Macbook) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Macbook)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(iPhone)">
+                  </a> <!-- searchTest(iPhone) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(iPhone)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(iMac)">
+                  </a> <!-- searchTest(iMac) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(iMac)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pageTest.RegisterPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPositiveRegistrationOfUser({lName=spider, password=Hello12, telephone=3332221144, fName=spider, email=spider@mailinator.com})">
+                  </a> <!-- testPositiveRegistrationOfUser({lName=spider, password=Hello12, telephone=3332221144, fName=spider, email=spider@mailinator.com}) -->
+                  <span class="method-name">testPositiveRegistrationOfUser</span>
+                  <span class="parameters">({lName=spider, password=Hello12, telephone=3332221144, fName=spider, email=spider@mailinator.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPositiveRegistrationOfUser({lName=Cart, password=Hello12, telephone=3332221144, fName=Open, email=opencar@mailinator.com})">
+                  </a> <!-- testPositiveRegistrationOfUser({lName=Cart, password=Hello12, telephone=3332221144, fName=Open, email=opencar@mailinator.com}) -->
+                  <span class="method-name">testPositiveRegistrationOfUser</span>
+                  <span class="parameters">({lName=Cart, password=Hello12, telephone=3332221144, fName=Open, email=opencar@mailinator.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pageTest.LoginPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validUserLoginTest">
+                  </a> <!-- validUserLoginTest -->
+                  <span class="method-name">validUserLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+        </div> <!-- panel All_Test_Suite -->
+        <div panel-name="test-xml-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Japneet\Downloads\BDDSelenium-master(1)\PlaywrightFramework\src\test\resources\testRunner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot; name=&quot;All Test Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.ReportListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; verbose=&quot;2&quot; name=&quot;homePageTests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pageTest.HomePageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- homePageTests --&gt;
+  &lt;test thread-count=&quot;3&quot; verbose=&quot;2&quot; name=&quot;loginPageTests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pageTest.LoginPageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- loginPageTests --&gt;
+  &lt;test thread-count=&quot;3&quot; verbose=&quot;2&quot; name=&quot;RegisterPageTests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pageTest.RegisterPageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegisterPageTests --&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">homePageTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">loginPageTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RegisterPageTests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite');
+function tableData_All_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testPositiveRegistrationOfUser')
+data.setCell(0, 2, 'pageTest.RegisterPageTests')
+data.setCell(0, 3, 7801);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testPositiveRegistrationOfUser')
+data.setCell(1, 2, 'pageTest.RegisterPageTests')
+data.setCell(1, 3, 7216);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validUserLoginTest')
+data.setCell(2, 2, 'pageTest.LoginPageTests')
+data.setCell(2, 3, 6093);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchTest')
+data.setCell(3, 2, 'pageTest.HomePageTests')
+data.setCell(3, 3, 5881);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchTest')
+data.setCell(4, 2, 'pageTest.HomePageTests')
+data.setCell(4, 3, 5723);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'searchTest')
+data.setCell(5, 2, 'pageTest.HomePageTests')
+data.setCell(5, 3, 5620);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'pageTitleTest')
+data.setCell(6, 2, 'pageTest.HomePageTests')
+data.setCell(6, 3, 79);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'pageUrlTest')
+data.setCell(7, 2, 'pageTest.HomePageTests')
+data.setCell(7, 3, 4);
+window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <div id="times-div-All_Test_Suite">
+              </div> <!-- times-div-All_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageTest.RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupPlaywright</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageTest.LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupPlaywright</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageTest.HomePageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupPlaywright</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageTest.LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validUserLoginTest</span>
+                <span class="method-start">11359 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageTest.HomePageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">pageTitleTest</span>
+                <span class="method-start">11679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pageUrlTest</span>
+                <span class="method-start">11763 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Macbook)</span>
+                <span class="method-start">11775 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageTest.RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPositiveRegistrationOfUser({lName=Cart, password=Hello12, telephone=3332221144, fName=Open, email=opencar@mailinator.com})</span>
+                <span class="method-start">11925 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageTest.LoginPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownPlaywright</span>
+                <span class="method-start">17454 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageTest.HomePageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchTest(iMac)</span>
+                <span class="method-start">17503 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageTest.RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPositiveRegistrationOfUser({lName=spider, password=Hello12, telephone=3332221144, fName=spider, email=spider@mailinator.com})</span>
+                <span class="method-start">19726 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageTest.HomePageTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchTest(iPhone)</span>
+                <span class="method-start">23384 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageTest.RegisterPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownPlaywright</span>
+                <span class="method-start">26943 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageTest.HomePageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownPlaywright</span>
+                <span class="method-start">29005 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
