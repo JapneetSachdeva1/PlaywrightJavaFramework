@@ -5,67 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf42f03-0f1b-4d3f-9036-7bc3b9ef75a4" name="Changes" comment="first playwright commit">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ExtentReportHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ReportListeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/RetrieveJsonData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageTest/RegisterPageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testData/registrationData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/RegisterPageTests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/RegisterPageTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/homePageTests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/homePageTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/loginPageTests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/loginPageTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-pageTest.HomePageTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-pageTest.LoginPageTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-pageTest.RegisterPageTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/RegisterPageTests.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/homePageTests.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/loginPageTests.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/PlaywrightFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/PlaywrightFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ExtentReportHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ExtentReportHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ReportListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ReportListeners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageTest/LoginPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageTest/LoginPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testRunner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testRunner/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/constants/HomePageConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/HomePageConstants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/constants/LoginPageConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/LoginPageConstants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/factory/PlaywrightFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/factory/PlaywrightFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/AccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AccountPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/RegisterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ExtentReportHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ExtentReportHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/utils/PropertyReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/PropertyReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ReportListeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ReportListeners.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/RetrieveJsonData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/RetrieveJsonData$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/RetrieveJsonData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/RetrieveJsonData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pageTest/HomePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageTest/HomePageTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pageTest/LoginPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageTest/LoginPageTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testRunner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testRunner/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageTest/RegisterPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageTest/RegisterPageTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +44,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Ke41vRQILoj5Zir8ufLFCQHNk1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -128,7 +94,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTests (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PlaywrightFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pageTest" />
+      <option name="MAIN_CLASS_NAME" value="pageTest.LoginPageTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTests (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PlaywrightFramework" />
       <extension name="coverage">
         <pattern>
@@ -163,30 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PlaywrightFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pageTest" />
-      <option name="MAIN_CLASS_NAME" value="pageTest.RegisterPageTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Japneet/Downloads/BDDSelenium-master(1)/PlaywrightFramework/src/test/resources/testRunner/SmokeSuiteRunner.xml" />
-        <item itemvalue="TestNG.C:/Users/Japneet/Downloads/BDDSelenium-master(1)/PlaywrightFramework/src/test/resources/testRunner/testng.xml" />
-        <item itemvalue="TestNG.LoginPageTests" />
+        <item itemvalue="TestNG.LoginPageTests (1)" />
         <item itemvalue="TestNG.LoginPageTests.validUserLoginTest" />
-        <item itemvalue="TestNG.RegisterPageTests" />
+        <item itemvalue="TestNG.LoginPageTests (2)" />
+        <item itemvalue="TestNG.C:/Users/Japneet/Downloads/BDDSelenium-master(1)/PlaywrightFramework/src/test/resources/testRunner/testng.xml" />
       </list>
     </recent_temporary>
   </component>

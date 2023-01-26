@@ -2,9 +2,11 @@ package utils;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.microsoft.playwright.Page;
 import lombok.SneakyThrows;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -13,6 +15,7 @@ import org.testng.ITestResult;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+import static factory.PlaywrightFactory.takeScreenshot;
 import static utils.ExtentReportHelper.getReportObject;
 
 public class ReportListeners implements ITestListener
@@ -22,53 +25,66 @@ public class ReportListeners implements ITestListener
         //ThreadLocal to generate the report for parallel execution
         ThreadLocal<ExtentTest> extentTestThreadLocal = new ThreadLocal<>();
 
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
-
-        public void onTestStart(ITestResult result)
-        {
-            logger = extentReports.createTest(result.getMethod().getMethodName(),
-                    "<b> Description for test:</b> "+result.getMethod().getDescription());
-            extentTestThreadLocal.set(logger);
-            logger.assignCategory(result.getMethod().getGroups());
-            extentTestThreadLocal.get().log(Status.INFO, "Execution start time: "+ dtf.format(LocalDateTime.now()));
-        }
-
-        public void onTestSuccess(ITestResult result)
-        {
-            extentTestThreadLocal.get().log(Status.PASS, MarkupHelper.createLabel(result.getMethod().getMethodName()+" is successful!!", ExtentColor.GREEN));
-        }
-
-        @SneakyThrows
-        public void onTestFailure(ITestResult result)
-        {
-            extentTestThreadLocal.get().log(Status.FAIL, MarkupHelper.createLabel((result.getMethod().getMethodName()+" is failed!!"), ExtentColor.RED));
-            extentTestThreadLocal.get().log(Status.FAIL, result.getThrowable());
-        }
-
-
-        public void onTestSkipped(ITestResult result) {
-            // not implemented
-
-
-        }
-
-        public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-            // not implemented
-        }
+    DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
 
     @Override
-    public void onStart(ITestContext iTestContext) {
+    public synchronized void onStart(ITestContext context) {
+        System.out.println("Test Suite started!");
 
     }
 
-    public void onTestFailedWithTimeout(ITestResult result) {
+    @Override
+    public synchronized void onFinish(ITestContext context) {
+        System.out.println(("Test Suite is ending!"));
+        extentTestThreadLocal.get().log(Status.INFO, "Execution end time:  "+ dtf.format(LocalDateTime.now()));
+        extentReports.flush();
+        extentTestThreadLocal.remove();
+    }
 
-        }
+    @Override
+    public synchronized void onTestStart(ITestResult result) {
+        String methodName = result.getMethod().getMethodName();
+        String qualifiedName = result.getMethod().getQualifiedName();
+        int last = qualifiedName.lastIndexOf(".");
+        int mid = qualifiedName.substring(0, last).lastIndexOf(".");
+        String className = qualifiedName.substring(mid + 1, last);
 
-        public void onFinish(ITestContext context)
-        {
-            extentTestThreadLocal.get().log(Status.INFO, "Execution stop time:  "+ dtf.format(LocalDateTime.now()));
-            extentReports.flush();
-        }
+        System.out.println(methodName + " started!");
+        ExtentTest extentTest = extentReports.createTest(result.getMethod().getMethodName(),
+                result.getMethod().getDescription());
+
+        extentTest.assignCategory(result.getTestContext().getSuite().getName());
+        extentTest.assignCategory(className);
+        extentTestThreadLocal.set(extentTest);
+        extentTestThreadLocal.get().getModel();
+        extentTestThreadLocal.get().log(Status.INFO, "Execution start time: "+ dtf.format(LocalDateTime.now()));
+
+
+    }
+
+    public synchronized void onTestSuccess(ITestResult result) {
+        System.out.println((result.getMethod().getMethodName() + " passed!"));
+        extentTestThreadLocal.get().pass("Test passed");
+       extentTestThreadLocal.get().getModel();
+    }
+
+    public synchronized void onTestFailure(ITestResult result) {
+        System.out.println((result.getMethod().getMethodName() + " failed!"));
+        extentTestThreadLocal.get().fail(MediaEntityBuilder.createScreenCaptureFromBase64String(takeScreenshot(result.getMethod().getMethodName()),result.getMethod().getMethodName()).build());
+
+        extentTestThreadLocal.get().fail(result.getThrowable());
+        //extentTestThreadLocal.get().fail(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromBase64String(takeScreenshot(),result.getMethod().getMethodName()).build());
+        extentTestThreadLocal.get().getModel();
+    }
+
+    public synchronized void onTestSkipped(ITestResult result) {
+//        System.out.println((result.getMethod().getMethodName() + " skipped!"));
+//        extentTestThreadLocal.get().skip(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromBase64String(takeScreenshot(), result.getMethod().getMethodName()).build());
+//        extentTestThreadLocal.get().getModel();
+    }
+
+    public synchronized void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+        System.out.println(("onTestFailedButWithinSuccessPercentage for " + result.getMethod().getMethodName()));
+    }
     }
 

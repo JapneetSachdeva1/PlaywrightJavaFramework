@@ -25,6 +25,7 @@ public class BaseTest
     //Constants
     private final String browser = loadProperty("browserName");
 
+
     @BeforeTest(alwaysRun = true)
     public void setupPlaywright()
     {

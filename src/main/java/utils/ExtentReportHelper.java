@@ -31,6 +31,10 @@ public class ExtentReportHelper
         reports.attachReporter(sparkReporter);
 
         reports.setSystemInfo("Tester is: ", "Japneet Sachdeva");
+        reports.setSystemInfo("System: ", "Windows");
+        reports.setSystemInfo("Build: ", "V0.8");
+        reports.setSystemInfo("Team: ", "OMS");
+        reports.getStats();
         return  reports;
     }
 }
