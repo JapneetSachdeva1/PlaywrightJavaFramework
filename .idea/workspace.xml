@@ -5,30 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf42f03-0f1b-4d3f-9036-7bc3b9ef75a4" name="Changes" comment="first playwright commit">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/PlaywrightFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/PlaywrightFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ExtentReportHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ExtentReportHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ReportListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ReportListeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/validUserLoginTest.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/validUserLoginTest.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageTest/LoginPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageTest/LoginPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/constants/HomePageConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/HomePageConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/constants/LoginPageConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/LoginPageConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/factory/PlaywrightFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/factory/PlaywrightFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/AccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AccountPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/RegisterPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ExtentReportHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ExtentReportHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/PropertyReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/PropertyReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ReportListeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ReportListeners.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/RetrieveJsonData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/RetrieveJsonData$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/RetrieveJsonData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/RetrieveJsonData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageTest/HomePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageTest/HomePageTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pageTest/LoginPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageTest/LoginPageTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageTest/RegisterPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageTest/RegisterPageTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +30,19 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Ke41vRQILoj5Zir8ufLFCQHNk1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "TestNG.C:/Users/Japneet/Downloads/BDDSelenium-master(1)/PlaywrightFramework/src/test/resources/testRunner/SmokeSuiteRunner.xml.executor": "Run",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
   <component name="RunManager" selected="TestNG.C:/Users/Japneet/Downloads/BDDSelenium-master(1)/PlaywrightFramework/src/test/resources/testRunner/SmokeSuiteRunner.xml">
     <configuration name="C:/Users/Japneet/Downloads/BDDSelenium-master(1)/PlaywrightFramework/src/test/resources/testRunner/SmokeSuiteRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PlaywrightFramework" />
