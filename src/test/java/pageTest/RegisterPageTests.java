@@ -24,8 +24,9 @@ public class RegisterPageTests extends BaseTest
     {
         registerPage.registerUser(input.get("fName"),input.get("lName"),input.get("email"),
                 input.get("telephone"), input.get("password"));
-       // String text = accountPage.getAccountCreatedText();
-        //Assert.assertEquals(text,"Your Account Has Been Created!");
+        System.out.println("For Git Branching Test");
+//        String text = accountPage.getAccountCreatedText();
+//        Assert.assertEquals(text,"Your Account Has Been Created!");
     }
 
 
