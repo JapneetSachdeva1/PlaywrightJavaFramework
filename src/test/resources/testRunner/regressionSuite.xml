@@ -6,6 +6,17 @@
         <listener class-name="utils.ReportListeners"/>
     </listeners>
 
+    <test name="homePageTests">
+        <classes>
+                <class name="pageTest.HomePageTests"/>
+        </classes>
+    </test>
+
+    <test name="loginPageTests">
+        <classes>
+            <class name="pageTest.LoginPageTests"/>
+        </classes>
+    </test>
 
     <test name="RegisterPageTests">
         <classes>
